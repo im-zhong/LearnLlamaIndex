@@ -1,0 +1,15 @@
+[project]
+name = "learnllamaindex"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.0.7",
+    "langchain-community>=0.4.1",
+    "llama-index>=0.14.8",
+    "llama-index-embeddings-langchain>=0.4.1",
+    "llama-index-llms-deepseek>=0.2.2",
+    "llama-index-llms-zhipuai>=0.4.1",
+    "zhipuai>=2.1.5.20250825",
+]
