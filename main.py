@@ -91,6 +91,11 @@ query_engine = index.as_query_engine(
 
 
 # Define a simple calculator tool
+# As you can see, these are regular Python functions. 
+# When deciding what tool to use, your agent will use the tool’s name, parameters, 
+# and docstring to determine what the tool does and whether it’s appropriate for the task at hand.
+# So it’s important to make sure the docstrings are descriptive and helpful. 
+# It will also use the type hints to determine the expected parameters and return type.
 def multiply(a: float, b: float) -> float:
     return a * b
 
